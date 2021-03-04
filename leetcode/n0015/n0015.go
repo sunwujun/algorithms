@@ -6,7 +6,7 @@ import (
 
 // [15] 三数之和
 func threeSum(nums []int) [][]int {
-	var result [][]int
+	result := make([][]int, 0)
 	if len(nums) < 3 {
 		return result
 	}
